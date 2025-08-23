@@ -7,14 +7,15 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
 <body>
     <header class="header">
         <a href="#" class="logo">Fabio</a>
         <nav class="navbar">
             <a href="index.html" style="--i:1;"  class="active">home</a>
-            <a href="#" style="--i:2;">chi sono</a>
-            <a href="#" style="--i:3;">skills</a>
-            <a href="#" style="--i:4;">contatti</a>
+            <a href="#about" style="--i:2;">chi sono</a>
+            <a href="#skills" style="--i:3;">skills</a>
+            <a href="#contatti" style="--i:4;">contatti</a>
             <a href="portfolio.html" style="--i:5;" target="_blank">portfolio</a>
             <a href="cv.html" style="--i:6;">cv</a>
         </nav>
@@ -29,7 +30,7 @@
             <h1>Ciao, sono Fabio De Lorenzo Tobolo</h1>
             <h3>ux-ui designer</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illo enim nam dolores, voluptate error ea blanditiis fugit alias nulla consequuntur recusandae velit iure cum sapiente eveniet! Obcaecati, deleniti laborum!</p>
-            <a href="#" class="btn">contattami</a>
+            <a href="#contatti" class="btn">contattami</a>
         </div>
 
         <div class="home-img">
@@ -42,5 +43,61 @@
             </div>
         </div>
     </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="home.png" alt="#">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">about <span>me</span></h2>
+            <h3>ux/ui designer</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum excepturi dolorem tempore, fugiat corrupti quasi placeat? Tempora impedit qui iste enim, voluptatibus laborum? Doloribus esse laborum a maiores quis quae?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+
+<section class="skills" id="skills">
+  <h2 class="heading">Le mie <span>skills</span></h2>
+
+  <div class="skills-container">
+    <div class="skills-box">
+      <i class='bx bxs-palette'></i>
+      <h3>UX-UI Designer</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo libero, ad molestiae tenetur distinctio tempora recusandae dicta autem itaque fugiat vel, unde eligendi magnam impedit? Vitae aliquam doloribus quidem.</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+
+    <div class="skills-box">
+      <i class="bx bx-code-alt"></i>
+      <h3>Sviluppatore Web</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur vitae, natus asperiores recusandae perferendis neque, voluptas sunt illo facilis beatae ea quo debitis corporis quas delectus dolores, enim laboriosam!.</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+
+    <div class="skills-box">
+      <i class='bx bxs-camera'></i>
+      <h3>Fotografo</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+  </div>
+</section>
+
+<section class="contatti" id="contatti">
+    <h2 class="heading">contattami <span>ora!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Nome e cognome">
+            <input type="email" placeholder="Email">
+        </div>
+         <div class="input-box">
+            <input type="number" placeholder="numero di telefono">
+            <input type="text" placeholder="Oggetto Email">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="il tuo messaggio"></textarea>
+        <input type="submit" value="invia messaggio" class="btn">
+    </form>
+</section>
+   
 </body>
 </html>
